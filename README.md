@@ -30,7 +30,7 @@ Genel satış performansının, iade oranlarının ve bölgesel dağılımın in
 * **Coğrafi Analiz:** Satışların yoğunlaştığı bölgeler harita görselleştirmesi ile analiz edildi.
 * **Görsel Hiyerarşi:** KPI kartları en üste konumlandırılarak "Büyük Resim" (Big Picture) anında sunuldu.
 
-![Analysis Dashboard](01_Analysis Dashbord/screenshot.png)
+![Analysis Dashboard](01_Analysis_Dashbord/screenshot.png)
 
 ---
 
@@ -60,7 +60,7 @@ Fabrika üretim verimliliği, hurda oranları ve lojistik süreçlerinin takibi 
 * **Trend Analizi:** Üretim adetlerinin dönemsel değişimi (Yıl/Çeyrek/Ay) çizgi grafikleriyle görselleştirildi.
 * **Gauge Charts (Kadranlar):** Hedef ve gerçekleşen (Target vs Actual) durum takibi için kadran görselleri kullanıldı.
 
-![Production Dashboard](03_Production_Analysis Dashboard/3.png)
+![Production Dashboard](03_Production_Analysis_Dashboard/screenshot.png)
 
 ---
 
@@ -75,7 +75,7 @@ Personel verimliliğini, eğitim başarı oranlarını ve departman bazlı maaş
 * **UI/UX Tasarımı:** Standart Power BI temaları yerine, özel olarak tasarlanmış **"Custom Image Background" (Resim Arka Plan)** tekniği kullanılarak modern ve kurumsal bir arayüz oluşturuldu.
 * **KPI Odaklılık:** Eğitim Verimliliği ve Ortalama Çalışma Saati gibi kritik metrikler ön plana çıkarıldı.
 
-![HR Dashboard](04_HR_Analytics_Dashboard/4.png)
+![HR Dashboard](04_HR_Analytics_Dashboard/screenshot.png)
 
 ---
 
@@ -90,7 +90,7 @@ Mağazaların anlık stok durumunu ve satış adetlerini izleyerek, yüksek mali
 * **Görselleştirme:** Stok ve Satış Adedi hedeflerini izlemek için **"Gauge Chart" (Kadran Grafiği)** ve maliyet dağılımı için **"Donut Chart"** kullanıldı.
 * **DAX:** Ortalama Satış Fiyatı hesaplamasında 'AVERAGE' kullanılarak güvenli oran analizi yapıldı.
 
-![Store Dashboard](05_Store_Analysis_Dashboard/5.png)
+![Store Dashboard](05_Store_Analysis_Dashboard/screenshot.png)
 ---
 
 ### 6. Customer Analysis Dashboard (Müşteri Analizi)
@@ -104,7 +104,7 @@ Müşteri sadakatini ölçümlemek, iade oranlarının kök nedenlerini (kategor
 * **Oran Analizi:** İade Oranları ve Satın Alma Sıklığı (Frequency) metrikleri 'AVERAGE' fonksiyonu ile dinamikleştirildi.
 * **UI Tasarımı:** 'Dark Mode' (Karanlık Mod) konsepti ile yüksek kontrastlı ve odaklayıcı bir rapor tasarımı uygulandı.
 
-![Customer Dashboard](06_Customer_Analysis_Dashboard/6.png)
+![Customer Dashboard](06_Customer_Analysis_Dashboard/screenshot.png)
 
 ---
 
@@ -119,7 +119,7 @@ Bayi, Mağaza ve Online kanallarının performansını kıyaslayarak en karlı s
 * **Finansal KPI'lar:** Net Kar Marjı (%) ve Ortalama Birim Fiyat gibi finansal metrikler 'DIVIDE' ve 'AVERAGE' ile dinamikleştirildi.
 * **Görselleştirme:** Özel tasarım başlık görseli (Custom Header Image) kullanılarak kurumsal kimliğe uygun bir arayüz oluşturuldu.
 
-![Sales Dashboard](07_Sales_Analysis_Dashboard/7.png)
+![Sales Dashboard](07_Sales_Analysis_Dashboard/screenshot.png)
 
 ---
 *Projelerin detaylı `.pbix` dosyalarını ilgili klasörlerin içinde bulabilirsiniz.*
