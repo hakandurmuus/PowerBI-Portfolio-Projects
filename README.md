@@ -121,5 +121,5 @@ Bayi, Mağaza ve Online kanallarının performansını kıyaslayarak en karlı s
 
 ![Sales Dashboard](07_Sales_Analysis_Dashboard/screenshot.png)
 
----
+----
 *Projelerin detaylı `.pbix` dosyalarını ilgili klasörlerin içinde bulabilirsiniz.*
