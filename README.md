@@ -122,4 +122,17 @@ Bayi, Mağaza ve Online kanallarının performansını kıyaslayarak en karlı s
 ![Sales Dashboard](07_Sales_Analysis_Dashboard/screenshot.png)
 
 ----
+
+### 8. Real-Time Market Data Pipeline (Canlı Borsa Takip Sistemi) 🚀
+Python, SQL ve Power BI entegrasyonu ile oluşturulmuş, saniyelik veri akışı sağlayan uçtan uca veri mühendisliği projesi.
+
+**🎯 İş Problemi:**
+Statik raporlamanın ötesine geçerek, anlık değişen finansal verilerin (Döviz/Altın) simüle edilmesi, veritabanına işlenmesi ve karar vericiler için canlı dashboard üzerinde gecikmesiz (Real-Time) izlenmesi.
+
+**🛠️ Mimari ve Teknolojiler:**
+* **Python (Data Ingestion):** 'Random' ve 'PyODBC' kütüphaneleri ile USD, EUR ve GBP pariteleri simüle edilip, **"Connection Pooling"** mantığıyla optimize edilerek SQL Server'a aktarıldı.
+* **SQL Server (Data Warehousing):** Yüksek frekanslı veri akışı için 'DECIMAL' ve 'DATETIME' hassasiyetine sahip veritabanı şeması tasarlandı.
+* **Power BI (Live Visualization):** **DirectQuery** modu kullanılarak SQL ile canlı bağlantı kuruldu ve **Auto Page Refresh** (5 sn) özelliği ile anlık trend takibi sağlandı.
+
+![Real Time Dashboard](08_Real_Time_Market_Pipeline/screenshot.png)
 *Projelerin detaylı `.pbix` dosyalarını ilgili klasörlerin içinde bulabilirsiniz.*
