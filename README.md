@@ -123,16 +123,18 @@ Bayi, Mağaza ve Online kanallarının performansını kıyaslayarak en karlı s
 
 ----
 
-### 8. Real-Time Market Data Pipeline (Canlı Borsa Takip Sistemi) 🚀
-Python, SQL ve Power BI entegrasyonu ile oluşturulmuş, saniyelik veri akışı sağlayan uçtan uca veri mühendisliği projesi.
+### 8. E-Commerce Price Tracking Pipeline (Canlı Fiyat Takip Sistemi) 🚀
+Python (Web Scraping), SQL ve Power BI entegrasyonu ile oluşturulmuş, rakip fiyat analizi sağlayan otomasyon projesi.
 
 **🎯 İş Problemi:**
-Statik raporlamanın ötesine geçerek, anlık değişen finansal verilerin (Döviz/Altın) simüle edilmesi, veritabanına işlenmesi ve karar vericiler için canlı dashboard üzerinde gecikmesiz (Real-Time) izlenmesi.
+E-ticaret sitelerindeki (Kitapyurdu vb.) ürün fiyatlarını anlık olarak takip etmek, fiyat değişimlerini veritabanında loglamak ve rekabet avantajı sağlamak için canlı dashboard oluşturmak.
 
 **🛠️ Mimari ve Teknolojiler:**
-* **Python (Data Ingestion):** 'Random' ve 'PyODBC' kütüphaneleri ile USD, EUR ve GBP pariteleri simüle edilip, **"Connection Pooling"** mantığıyla optimize edilerek SQL Server'a aktarıldı.
-* **SQL Server (Data Warehousing):** Yüksek frekanslı veri akışı için 'DECIMAL' ve 'DATETIME' hassasiyetine sahip veritabanı şeması tasarlandı.
-* **Power BI (Live Visualization):** **DirectQuery** modu kullanılarak SQL ile canlı bağlantı kuruldu ve **Auto Page Refresh** (5 sn) özelliği ile anlık trend takibi sağlandı.
+* **Python (Scraping & ETL):** 'BeautifulSoup' ve 'Requests' kütüphaneleri ile web sitelerinden veri kazındı. Anti-bot engelleri için 'User-Agent' rotasyonu uygulandı.
+* **Data Simulation:** Veri akışını test etmek ve dashboard tepkisini ölçmek için fiyatlara mikro-simülasyon (Jitter) uygulandı.
+* **SQL Server:** 'NVARCHAR' ve 'DECIMAL' veri tipleri ile optimize edilmiş veritabanı şeması.
+* **Power BI:** DirectQuery ile canlı veri akışı görselleştirildi.
 
-![Real Time Dashboard](08_Real_Time_Market_Pipeline/screenshot.png)
+![Price Tracking Dashboard](08_Real_Time_Market_Pipeline/screenshot.png)
+
 *Projelerin detaylı `.pbix` dosyalarını ilgili klasörlerin içinde bulabilirsiniz.*
