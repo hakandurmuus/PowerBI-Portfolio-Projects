@@ -5,7 +5,7 @@ from datetime import datetime
 import time
 import random
 
-server = 'HKNDRMS-HP\SQLEXPRESS'  
+server = 'YOUR_SERVER_NAME' 
 database = 'Production'
 
 urunler = [
