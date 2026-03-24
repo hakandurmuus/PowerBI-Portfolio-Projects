@@ -1,4 +1,4 @@
-### 9. Customer Segmentation Analysis (RFM) 🎯
+###  Customer Segmentation Analysis (RFM) 🎯
 E-ticaret müşterilerinin alışveriş alışkanlıklarına göre segmentlere ayrıldığı stratejik pazarlama analizi.
 
 **🎯 İş Problemi:**
