@@ -1,4 +1,4 @@
-### 10. Sales Forecasting with Machine Learning (Satış Tahminleme) 🤖
+###  Sales Forecasting with Machine Learning (Satış Tahminleme) 🤖
 Geçmiş satış verilerini kullanarak gelecekteki ciro trendlerini tahmin eden Makine Öğrenmesi projesi.
 
 **🎯 İş Problemi:**
