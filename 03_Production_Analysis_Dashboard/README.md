@@ -1,4 +1,4 @@
-### 3. Production & Logistics Analysis Dashboard
+###  Production & Logistics Analysis Dashboard
 Fabrika üretim verimliliği, hurda oranları ve lojistik süreçlerinin takibi için tasarlanmış operasyonel yönetim paneli.
 
 **🎯 İş Problemi:**
