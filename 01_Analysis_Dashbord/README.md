@@ -1,4 +1,4 @@
-### 1. Analysis Dashboard Uygulaması
+###  Analysis Dashboard Uygulaması
 Genel satış performansının, iade oranlarının ve bölgesel dağılımın incelendiği stratejik yönetim paneli.
 
 **🎯 İş Problemi:**
