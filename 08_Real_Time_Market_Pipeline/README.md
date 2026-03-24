@@ -10,4 +10,4 @@ E-ticaret sitelerindeki (Kitapyurdu vb.) ürün fiyatlarını anlık olarak taki
 * **SQL Server:** 'NVARCHAR' ve 'DECIMAL' veri tipleri ile optimize edilmiş veritabanı şeması.
 * **Power BI:** DirectQuery ile canlı veri akışı görselleştirildi.
 
-![Price Tracking Dashboard](08_Real_Time_Market_Pipeline/screenshot.png)
+![Price Tracking Dashboard](screenshot.png)
