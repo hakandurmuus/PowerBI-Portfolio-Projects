@@ -1,4 +1,4 @@
-### 5. Store Analysis Dashboard (Mağaza Analizi)
+###  Store Analysis Dashboard (Mağaza Analizi)
 Perakende mağazalarının satış performansını, stok seviyelerini ve maliyet yapısını inceleyen operasyonel analiz paneli.
 
 **🎯 İş Problemi:**
