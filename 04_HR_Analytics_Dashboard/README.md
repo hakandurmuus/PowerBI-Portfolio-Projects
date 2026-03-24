@@ -1,4 +1,4 @@
-### 4. HR Analytics Dashboard (İnsan Kaynakları)
+###  HR Analytics Dashboard (İnsan Kaynakları)
 Şirket çalışanlarının performansı, maaş dağılımı ve demografik yapısının analizi.
 
 **🎯 İş Problemi:**
