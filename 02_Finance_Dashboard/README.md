@@ -1,4 +1,4 @@
-### 2. Finance Analyst Dashboard
+###  Finance Analyst Dashboard
 Şirketin finansal sağlığını, karlılığını ve indirim stratejilerini inceleyen raporlama çalışması.
 
 **🎯 İş Problemi:**
