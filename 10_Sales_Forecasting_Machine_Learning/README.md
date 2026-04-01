@@ -1,12 +1,12 @@
-###  Sales Forecasting with Machine Learning (Satış Tahminleme) 🤖
-Geçmiş satış verilerini kullanarak gelecekteki ciro trendlerini tahmin eden Makine Öğrenmesi projesi.
+### Sales Forecasting with Machine Learning 🤖
+A machine learning project predicting future revenue trends using historical sales data.
 
-**🎯 İş Problemi:**
-Şirketin günlük satış verilerindeki dalgalanmalardan (Noise) arındırılmış **ana büyüme trendini** tespit etmek ve gelecek 30 gün için ciro projeksiyonu oluşturmak.
+🎯 Business Problem: To identify the underlying growth trend by removing noise from daily sales data and generate a 30-day revenue forecast.
 
-**🛠️ Kullanılan Teknikler:**
-* **Python (Scikit-Learn):** 'LinearRegression' algoritması kullanılarak zaman serisi üzerinde trend analizi yapıldı.
-* **Feature Engineering:** Tarih verisi 'Ordinal' sayısal formata dönüştürülerek modele uygun hale getirildi.
-* **SQL & Power BI Entegrasyonu:** Python ile üretilen tahmin verileri SQL veritabanına geri yazıldı (Write-Back) ve Power BI üzerinde Geçmiş vs Gelecek verisi tek grafikte görselleştirildi.
+🛠️ Techniques Used:
+
+- **Python (Scikit-Learn):** Trend analysis performed using the `LinearRegression` algorithm.  
+- **Feature Engineering:** Date data transformed into ordinal numerical format for model compatibility.  
+- **SQL & Power BI Integration:** Forecast data written back to SQL and visualized alongside historical data in Power BI.
 
 ![Sales Forecast](screenshot.png)
