@@ -1,12 +1,12 @@
-###  Customer Analysis Dashboard (Müşteri Analizi)
-E-ticaret müşteri segmentasyonu, sadakat analizi ve memnuniyet skorlarını inceleyen detaylı müşteri paneli.
+### Customer Analysis Dashboard
+A detailed customer analytics dashboard focusing on e-commerce segmentation, loyalty, and satisfaction scores.
 
-**🎯 İş Problemi:**
-Müşteri sadakatini ölçümlemek, iade oranlarının kök nedenlerini (kategori bazlı) analiz etmek ve Ortalama Sepet Tutarını (AOV) artıracak stratejiler geliştirmek.
+🎯 Business Problem: To measure customer loyalty, analyze root causes of return rates (category-based), and develop strategies to increase Average Order Value (AOV).
 
-**🛠️ Kullanılan Teknikler:**
-* **Gelişmiş DAX:** 'AVERAGE' fonksiyonu ile hesaplamalar yapıldı.
-* **Oran Analizi:** İade Oranları ve Satın Alma Sıklığı (Frequency) metrikleri 'AVERAGE' fonksiyonu ile dinamikleştirildi.
-* **UI Tasarımı:** 'Dark Mode' (Karanlık Mod) konsepti ile yüksek kontrastlı ve odaklayıcı bir rapor tasarımı uygulandı.
+🛠️ Techniques Used:
+
+- **Advanced DAX:** Calculations performed using `AVERAGE`.  
+- **Ratio Analysis:** Return Rates and Purchase Frequency dynamically calculated using `AVERAGE`.  
+- **UI Design:** A high-contrast, focused report design implemented using a Dark Mode concept.
 
 ![Customer Dashboard](screenshot.png)
