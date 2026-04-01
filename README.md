@@ -1,52 +1,52 @@
 # 📊 Power BI Portfolio Projects
 
-📌 Odak: Data Analysis | Business Intelligence | Power BI Dashboarding
+📌 Focus: Data Analysis | Business Intelligence | Power BI Dashboarding
 
-Bu repo, veri analizi ve iş zekası (BI) projelerimi içermektedir.  
-Projelerde veri modelleme (Star Schema), veri temizleme (Power Query) ve etkili dashboard tasarımı teknikleri uygulanmıştır.
-
----
-
-## 💡 DAX Yaklaşımı
-
-Projelerde, Power BI’ın varsayılan (Implicit) hesaplamaları yerine **Explicit Measures (DAX)** kullanılmıştır.
-
-Bu yaklaşım sayesinde:
-- Daha sürdürülebilir ve hatasız raporlar geliştirildi  
-- DAX fonksiyonları (`CALCULATE`, `DIVIDE`, `SUMX`) üzerinde güçlü hakimiyet sağlandı  
-- Filtre bağlamı (Filter Context) doğru ve kontrollü şekilde yönetildi  
+This repository contains my data analysis and business intelligence (BI) projects.  
+The projects apply data modeling (Star Schema), data cleaning (Power Query), and effective dashboard design techniques.
 
 ---
 
-## 🚀 Projeler
+## 💡 DAX Approach
 
-| Proje Adı | Açıklama | Teknolojiler | Link |
-|----------|----------|-------------|------|
-| Analysis Dashboard | Satış trendleri, iade oranları ve bölgesel performans analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/01_Analysis_Dashbord) |
-| Finance Dashboard | Karlılık analizi ve indirim stratejilerinin satışlara etkisi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/02_Finance_Dashboard) |
-| Production & Logistics | Üretim verimliliği, hurda oranı ve sevkiyat süreç analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/03_Production_Analysis_Dashboard) |
-| HR Analytics | Çalışan performansı, maaş dağılımı ve İK analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/04_HR_Analytics_Dashboard) |
-| Store Analysis | Mağaza bazlı stok, satış ve maliyet analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/05_Store_Analysis_Dashboard) |
-| Customer Analysis | Müşteri davranışı, sadakat ve alışveriş analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/06_Customer_Analysis_Dashboard) |
-| Sales Dashboard | Kanal bazlı satış performansı ve kar marjı analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/07_Sales_Analysis_Dashboard) |
-| Price Tracking Pipeline 🚀 | Web scraping ile rakip fiyat takibi ve canlı veri pipeline | Python, SQL, Power BI | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/08_Real_Time_Market_Pipeline) |
-| Customer Segmentation (RFM) 🎯 | RFM analizi ile müşteri segmentasyonu ve hedefleme | SQL, Power BI | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/09_Customer_Segmentation_RFM) |
-| Sales Forecasting 🤖 | Makine öğrenmesi ile satış trendi tahminleme | Python, ML, SQL | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/10_Sales_Forecasting_Machine_Learning) |
+In these projects, **Explicit Measures (DAX)** are used instead of Power BI’s default (Implicit) calculations.
+
+This approach enables:
+- Building more sustainable and error-free reports  
+- Strong proficiency in DAX functions (`CALCULATE`, `DIVIDE`, `SUMX`)  
+- Accurate and controlled management of filter context  
 
 ---
 
-## 🧠 Kullanılan Teknolojiler
+## 🚀 Projects
+
+| Project Name | Description | Technologies | Link |
+|-------------|------------|-------------|------|
+| Analysis Dashboard | Sales trends, return rates, and regional performance analysis | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/01_Analysis_Dashbord) |
+| Finance Dashboard | Profitability analysis and impact of discount strategies on sales | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/02_Finance_Dashboard) |
+| Production & Logistics | Production efficiency, scrap rate, and shipment process analysis | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/03_Production_Analysis_Dashboard) |
+| HR Analytics | Employee performance, salary distribution, and HR analysis | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/04_HR_Analytics_Dashboard) |
+| Store Analysis | Store-level stock, sales, and cost analysis | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/05_Store_Analysis_Dashboard) |
+| Customer Analysis | Customer behavior, loyalty, and shopping analysis | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/06_Customer_Analysis_Dashboard) |
+| Sales Dashboard | Channel-based sales performance and profit margin analysis | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/07_Sales_Analysis_Dashboard) |
+| Price Tracking Pipeline 🚀 | Competitor price tracking and real-time data pipeline via web scraping | Python, SQL, Power BI | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/08_Real_Time_Market_Pipeline) |
+| Customer Segmentation (RFM) 🎯 | Customer segmentation and targeting using RFM analysis | SQL, Power BI | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/09_Customer_Segmentation_RFM) |
+| Sales Forecasting 🤖 | Sales trend forecasting using machine learning | Python, ML, SQL | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/10_Sales_Forecasting_Machine_Learning) |
+
+---
+
+## 🧠 Technologies Used
 - Python (Pandas, Scikit-Learn, BeautifulSoup)
 - SQL Server
 - Power BI (DAX, Data Modeling, Dashboard Design)
-- Veri Görselleştirme & Dashboard Tasarımı
+- Data Visualization & Dashboard Design
 
 ---
 
-## 📌 Not
+## 📌 Note
 
-Her projenin detaylı açıklaması, teknik yaklaşımı ve dashboard görselleri ilgili proje klasörlerinde yer almaktadır.
+Detailed explanations, technical approaches, and dashboard visuals for each project are available in the respective project folders.
 
 ---
 
-⭐ Repo’yu faydalı bulursanız yıldızlamayı unutmayın!
+⭐ If you find this repository useful, don’t forget to star it!
