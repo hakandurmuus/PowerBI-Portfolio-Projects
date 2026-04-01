@@ -1,166 +1,52 @@
 # 📊 Power BI Portfolio Projects
 
-Bu repo, veri görselleştirme ve iş zekası yetkinliklerimi sergilemek amacıyla hazırladığım **Power BI** projelerini içerir.
+📌 Odak: Data Analysis | Business Intelligence | Power BI Dashboarding
 
-Projelerde veri modelleme (Star Schema), veri temizleme (Power Query) ve görselleştirme teknikleri kullanılmıştır.
-
-## 💡 DAX Yaklaşımı ve Teknik Metodoloji (Önemli Not)
-
-Bu projelerdeki hesaplamaların bir kısmında **"Explicit Measures" (Açık Ölçüler)** yöntemi tercih edilmiştir.
-
-Power BI'ın sunduğu sürükle-bırak (Implicit Measures) kolaylığı yerine; en temel toplama (SUM), sayma (COUNT) ve ortalama işlemlerinde dahi **DAX (Data Analysis Expressions)** fonksiyonları manuel olarak yazılmıştır.
-
-**Bunun Amacı:**
-* **Best Practice:** Endüstri standartlarına uygun, sürdürülebilir ve hatasız raporlar oluşturmak.
-* **DAX Hakimiyeti:** 'CALCULATE', 'DIVIDE', 'SUMX' ve 'Time Intelligence' fonksiyonlarında yetkinlik kazanmak.
-* **Performans ve Kontrol:** Hesaplamalar üzerinde tam kontrol sağlayarak, filtre bağlamlarını (Filter Context) doğru yönetmek.
+Bu repo, veri analizi ve iş zekası (BI) projelerimi içermektedir.  
+Projelerde veri modelleme (Star Schema), veri temizleme (Power Query) ve etkili dashboard tasarımı teknikleri uygulanmıştır.
 
 ---
 
-## 📂 Proje Detayları
+## 💡 DAX Yaklaşımı
 
-### 1. Analysis Dashboard Uygulaması
-Genel satış performansının, iade oranlarının ve bölgesel dağılımın incelendiği stratejik yönetim paneli.
+Projelerde, Power BI’ın varsayılan (Implicit) hesaplamaları yerine **Explicit Measures (DAX)** kullanılmıştır.
 
-**🎯 İş Problemi:**
-Şirketin genel satış trendlerini ve müşteri davranışlarını tek bir ekranda izleyerek, iade oranlarının yüksek olduğu ürün/müşteri gruıplarını tespit etmek.
-
-**🛠️ Kullanılan Teknikler:**
-* **DAX & Measures:** Toplam Ciro, İade Miktarı ve İade Oranı (%) hesaplamaları 'SUM' ve 'DIVIDE' fonksiyonları ile dinamik hale getirildi.
-* **Coğrafi Analiz:** Satışların yoğunlaştığı bölgeler harita görselleştirmesi ile analiz edildi.
-* **Görsel Hiyerarşi:** KPI kartları en üste konumlandırılarak "Büyük Resim" (Big Picture) anında sunuldu.
-
-![Analysis Dashboard](01_Analysis_Dashbord/screenshot.png)
+Bu yaklaşım sayesinde:
+- Daha sürdürülebilir ve hatasız raporlar geliştirildi  
+- DAX fonksiyonları (`CALCULATE`, `DIVIDE`, `SUMX`) üzerinde güçlü hakimiyet sağlandı  
+- Filtre bağlamı (Filter Context) doğru ve kontrollü şekilde yönetildi  
 
 ---
 
-### 2. Finance Analyst Dashboard
-Şirketin finansal sağlığını, karlılığını ve indirim stratejilerini inceleyen raporlama çalışması.
+## 🚀 Projeler
 
-**🎯 İş Problemi:**
-Hangi ülkenin ve hangi ürünün şirkete ne kadar kar getirdiğini ve indirimlerin satışlara etkisini ölçümlemek.
-
-**🛠️ Kullanılan Teknikler:**
-* **DAX:** 'AVERAGE' ile ortalama satış fiyatı ve 'SUM' ile toplam ciro hesaplamaları.
-* **Pareto Analizi Mantığı:** En çok ciro getiren ürünlerin (Top Products) çizgi grafiği ile trend analizi.
-* **Coğrafi Görselleştirme:** Ülke bazlı satış performansının harita üzerinde gösterimi.
-
-![Finance Analyst Dashboard](02_Finance_Dashboard/screenshot.png)
-
----
-
-### 3. Production & Logistics Analysis Dashboard
-Fabrika üretim verimliliği, hurda oranları ve lojistik süreçlerinin takibi için tasarlanmış operasyonel yönetim paneli.
-
-**🎯 İş Problemi:**
-Üretim adetleri ile hurda miktarları arasındaki ilişkiyi analiz etmek ve sevk sürelerindeki darboğazları tespit ederek OEE (Genel Ekipman Etkinliği) artışına katkı sağlamak.
-
-**🛠️ Kullanılan Teknikler:**
-* **DAX & KPI:** Hurda Oranı (%) ve Sevk Süresi gibi kritik üretim metrikleri 'DIVIDE' ve 'AVERAGE' fonksiyonları ile hesaplandı.
-* **Trend Analizi:** Üretim adetlerinin dönemsel değişimi (Yıl/Çeyrek/Ay) çizgi grafikleriyle görselleştirildi.
-* **Gauge Charts (Kadranlar):** Hedef ve gerçekleşen (Target vs Actual) durum takibi için kadran görselleri kullanıldı.
-
-![Production Dashboard](03_Production_Analysis_Dashboard/screenshot.png)
+| Proje Adı | Açıklama | Teknolojiler | Link |
+|----------|----------|-------------|------|
+| Analysis Dashboard | Satış trendleri, iade oranları ve bölgesel performans analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/01_Analysis_Dashbord) |
+| Finance Dashboard | Karlılık analizi ve indirim stratejilerinin satışlara etkisi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/02_Finance_Dashboard) |
+| Production & Logistics | Üretim verimliliği, hurda oranı ve sevkiyat süreç analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/03_Production_Analysis_Dashboard) |
+| HR Analytics | Çalışan performansı, maaş dağılımı ve İK analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/04_HR_Analytics_Dashboard) |
+| Store Analysis | Mağaza bazlı stok, satış ve maliyet analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/05_Store_Analysis_Dashboard) |
+| Customer Analysis | Müşteri davranışı, sadakat ve alışveriş analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/06_Customer_Analysis_Dashboard) |
+| Sales Dashboard | Kanal bazlı satış performansı ve kar marjı analizi | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/07_Sales_Analysis_Dashboard) |
+| Price Tracking Pipeline 🚀 | Web scraping ile rakip fiyat takibi ve canlı veri pipeline | Python, SQL, Power BI | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/08_Real_Time_Market_Pipeline) |
+| Customer Segmentation (RFM) 🎯 | RFM analizi ile müşteri segmentasyonu ve hedefleme | SQL, Power BI | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/09_Customer_Segmentation_RFM) |
+| Sales Forecasting 🤖 | Makine öğrenmesi ile satış trendi tahminleme | Python, ML, SQL | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/10_Sales_Forecasting_Machine_Learning) |
 
 ---
 
-### 4. HR Analytics Dashboard (İnsan Kaynakları)
-Şirket çalışanlarının performansı, maaş dağılımı ve demografik yapısının analizi.
-
-**🎯 İş Problemi:**
-Personel verimliliğini, eğitim başarı oranlarını ve departman bazlı maaş dengesizliklerini tespit ederek İK stratejilerine yön vermek.
-
-**🛠️ Kullanılan Teknikler:**
-* **DAX:** 'DISTINCTCOUNT' ile çalışan sayısı hesaplandı.
-* **UI/UX Tasarımı:** Standart Power BI temaları yerine, özel olarak tasarlanmış **"Custom Image Background" (Resim Arka Plan)** tekniği kullanılarak modern ve kurumsal bir arayüz oluşturuldu.
-* **KPI Odaklılık:** Eğitim Verimliliği ve Ortalama Çalışma Saati gibi kritik metrikler ön plana çıkarıldı.
-
-![HR Dashboard](04_HR_Analytics_Dashboard/screenshot.png)
+## 🧠 Kullanılan Teknolojiler
+- Python (Pandas, Scikit-Learn, BeautifulSoup)
+- SQL Server
+- Power BI (DAX, Data Modeling, Dashboard Design)
+- Veri Görselleştirme & Dashboard Tasarımı
 
 ---
 
-### 5. Store Analysis Dashboard (Mağaza Analizi)
-Perakende mağazalarının satış performansını, stok seviyelerini ve maliyet yapısını inceleyen operasyonel analiz paneli.
+## 📌 Not
 
-**🎯 İş Problemi:**
-Mağazaların anlık stok durumunu ve satış adetlerini izleyerek, yüksek maliyetli ürün gruplarını tespit etmek ve stok optimizasyonu sağlamak.
-
-**🛠️ Kullanılan Teknikler:**
-* **Kanal Analizi:** Direkt, Mağaza, Online ve Toptan satış kanallarının performansları ayrı ayrı metriklere dönüştürüldü.
-* **Görselleştirme:** Stok ve Satış Adedi hedeflerini izlemek için **"Gauge Chart" (Kadran Grafiği)** ve maliyet dağılımı için **"Donut Chart"** kullanıldı.
-* **DAX:** Ortalama Satış Fiyatı hesaplamasında 'AVERAGE' kullanılarak güvenli oran analizi yapıldı.
-
-![Store Dashboard](05_Store_Analysis_Dashboard/screenshot.png)
----
-
-### 6. Customer Analysis Dashboard (Müşteri Analizi)
-E-ticaret müşteri segmentasyonu, sadakat analizi ve memnuniyet skorlarını inceleyen detaylı müşteri paneli.
-
-**🎯 İş Problemi:**
-Müşteri sadakatini ölçümlemek, iade oranlarının kök nedenlerini (kategori bazlı) analiz etmek ve Ortalama Sepet Tutarını (AOV) artıracak stratejiler geliştirmek.
-
-**🛠️ Kullanılan Teknikler:**
-* **Gelişmiş DAX:** 'AVERAGE' fonksiyonu ile hesaplamalar yapıldı.
-* **Oran Analizi:** İade Oranları ve Satın Alma Sıklığı (Frequency) metrikleri 'AVERAGE' fonksiyonu ile dinamikleştirildi.
-* **UI Tasarımı:** 'Dark Mode' (Karanlık Mod) konsepti ile yüksek kontrastlı ve odaklayıcı bir rapor tasarımı uygulandı.
-
-![Customer Dashboard](06_Customer_Analysis_Dashboard/screenshot.png)
+Her projenin detaylı açıklaması, teknik yaklaşımı ve dashboard görselleri ilgili proje klasörlerinde yer almaktadır.
 
 ---
 
-### 7. Sales Analysis Gösterge Tablosu
-Genel satış trendleri, kanal performansları ve kar marjı analizini içeren yönetim özeti.
-
-**🎯 İş Problemi:**
-Bayi, Mağaza ve Online kanallarının performansını kıyaslayarak en karlı satış kanalını belirlemek ve mevsimsel satış dalgalanmalarını takip etmek.
-
-**🛠️ Kullanılan Teknikler:**
-* **Kanal Analizi:** 'CALCULATE' fonksiyonu ile her bir satış kanalının (Bayi, Mağaza, Online) ciro katkısı ayrı ayrı hesaplandı.
-* **Finansal KPI'lar:** Net Kar Marjı (%) ve Ortalama Birim Fiyat gibi finansal metrikler 'DIVIDE' ve 'AVERAGE' ile dinamikleştirildi.
-* **Görselleştirme:** Özel tasarım başlık görseli (Custom Header Image) kullanılarak kurumsal kimliğe uygun bir arayüz oluşturuldu.
-
-![Sales Dashboard](07_Sales_Analysis_Dashboard/screenshot.png)
-
-----
-
-### 8. E-Commerce Price Tracking Pipeline (Canlı Fiyat Takip Sistemi) 🚀
-Python (Web Scraping), SQL ve Power BI entegrasyonu ile oluşturulmuş, rakip fiyat analizi sağlayan otomasyon projesi.
-
-**🎯 İş Problemi:**
-E-ticaret sitelerindeki (Kitapyurdu vb.) ürün fiyatlarını anlık olarak takip etmek, fiyat değişimlerini veritabanında loglamak ve rekabet avantajı sağlamak için canlı dashboard oluşturmak.
-
-**🛠️ Mimari ve Teknolojiler:**
-* **Python (Scraping & ETL):** 'BeautifulSoup' ve 'Requests' kütüphaneleri ile web sitelerinden veri kazındı. Anti-bot engelleri için 'User-Agent' rotasyonu uygulandı.
-* **Data Simulation:** Veri akışını test etmek ve dashboard tepkisini ölçmek için fiyatlara mikro-simülasyon (Jitter) uygulandı.
-* **SQL Server:** 'NVARCHAR' ve 'DECIMAL' veri tipleri ile optimize edilmiş veritabanı şeması.
-* **Power BI:** DirectQuery ile canlı veri akışı görselleştirildi.
-
-![Price Tracking Dashboard](08_Real_Time_Market_Pipeline/screenshot.png)
-
-### 9. Customer Segmentation Analysis (RFM) 🎯
-E-ticaret müşterilerinin alışveriş alışkanlıklarına göre segmentlere ayrıldığı stratejik pazarlama analizi.
-
-**🎯 İş Problemi:**
-Müşteri tabanını daha iyi tanımak, "Kayıp" veya "Riskli" müşterileri tespit etmek ve sadık müşterilere özel stratejiler geliştirmek için RFM (Recency, Frequency, Monetary) skorlaması yapmak.
-
-**🛠️ Kullanılan Teknikler:**
-* **Data Engineering (SQL):** Ham veriden RFM metrikleri hesaplandı ve 'NTILE' pencere fonksiyonu (Window Function) ile müşteriler 1-5 arası puanlandı.
-* **Segmentation Logic:** SQL tarafında 'CASE WHEN' yapısı ile puanlar birleştirilerek "Şampiyonlar", "Sadık Müşteriler", "Riskli" gibi dinamik segmentler oluşturuldu.
-* **Görselleştirme:** Segment büyüklüklerini analiz etmek için **Treemap** ve ciro katkılarını görmek için **Bar Chart** kullanıldı.
-
-![RFM Dashboard](09_Customer_Segmentation_RFM/screenshot.png)
-
-### 10. Sales Forecasting with Machine Learning (Satış Tahminleme) 🤖
-Geçmiş satış verilerini kullanarak gelecekteki ciro trendlerini tahmin eden Makine Öğrenmesi projesi.
-
-**🎯 İş Problemi:**
-Şirketin günlük satış verilerindeki dalgalanmalardan (Noise) arındırılmış **ana büyüme trendini** tespit etmek ve gelecek 30 gün için ciro projeksiyonu oluşturmak.
-
-**🛠️ Kullanılan Teknikler:**
-* **Python (Scikit-Learn):** 'LinearRegression' algoritması kullanılarak zaman serisi üzerinde trend analizi yapıldı.
-* **Feature Engineering:** Tarih verisi 'Ordinal' sayısal formata dönüştürülerek modele uygun hale getirildi.
-* **SQL & Power BI Entegrasyonu:** Python ile üretilen tahmin verileri SQL veritabanına geri yazıldı (Write-Back) ve Power BI üzerinde Geçmiş vs Gelecek verisi tek grafikte görselleştirildi.
-
-![Sales Forecast](10_Sales_Forecasting_Machine_Learning/screenshot.png)
-
-*Projelerin detaylı `.pbix` dosyalarını ilgili klasörlerin içinde bulabilirsiniz.*
+⭐ Repo’yu faydalı bulursanız yıldızlamayı unutmayın!
