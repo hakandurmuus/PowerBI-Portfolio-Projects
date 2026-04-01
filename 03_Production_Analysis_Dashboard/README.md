@@ -1,4 +1,4 @@
-### 3. Production & Logistics Analysis Dashboard
+### Production & Logistics Analysis Dashboard
 An operational management dashboard designed to track factory production efficiency, scrap rates, and logistics processes.
 
 🎯 Business Problem: To analyze the relationship between production quantities and scrap amounts, and identify bottlenecks in shipment times to improve OEE (Overall Equipment Effectiveness).
