@@ -1,12 +1,12 @@
-###  Analysis Dashboard Uygulaması
-Genel satış performansının, iade oranlarının ve bölgesel dağılımın incelendiği stratejik yönetim paneli.
+### 1. Analysis Dashboard Application
+A strategic management dashboard analyzing overall sales performance, return rates, and regional distribution.
 
-**🎯 İş Problemi:**
-Şirketin genel satış trendlerini ve müşteri davranışlarını tek bir ekranda izleyerek, iade oranlarının yüksek olduğu ürün/müşteri gruıplarını tespit etmek.
+🎯 Business Problem: To monitor overall sales trends and customer behavior on a single screen and identify product/customer groups with high return rates.
 
-**🛠️ Kullanılan Teknikler:**
-* **DAX & Measures:** Toplam Ciro, İade Miktarı ve İade Oranı (%) hesaplamaları 'SUM' ve 'DIVIDE' fonksiyonları ile dinamik hale getirildi.
-* **Coğrafi Analiz:** Satışların yoğunlaştığı bölgeler harita görselleştirmesi ile analiz edildi.
-* **Görsel Hiyerarşi:** KPI kartları en üste konumlandırılarak "Büyük Resim" (Big Picture) anında sunuldu.
+🛠️ Techniques Used:
+
+- **DAX & Measures:** Total Revenue, Return Amount, and Return Rate (%) calculations were dynamically created using `SUM` and `DIVIDE` functions.  
+- **Geographical Analysis:** Regions with high sales density were analyzed using map visualizations.  
+- **Visual Hierarchy:** KPI cards were positioned at the top to instantly present the "Big Picture".
 
 ![Analysis Dashboard](screenshot.png)
