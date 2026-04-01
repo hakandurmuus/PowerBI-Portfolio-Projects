@@ -1,12 +1,12 @@
-###  Sales Analysis Gösterge Tablosu
-Genel satış trendleri, kanal performansları ve kar marjı analizini içeren yönetim özeti.
+### Sales Analysis Dashboard
+A management summary dashboard including overall sales trends, channel performance, and profit margin analysis.
 
-**🎯 İş Problemi:**
-Bayi, Mağaza ve Online kanallarının performansını kıyaslayarak en karlı satış kanalını belirlemek ve mevsimsel satış dalgalanmalarını takip etmek.
+🎯 Business Problem: To compare Dealer, Store, and Online channels to identify the most profitable one and track seasonal sales fluctuations.
 
-**🛠️ Kullanılan Teknikler:**
-* **Kanal Analizi:** 'CALCULATE' fonksiyonu ile her bir satış kanalının (Bayi, Mağaza, Online) ciro katkısı ayrı ayrı hesaplandı.
-* **Finansal KPI'lar:** Net Kar Marjı (%) ve Ortalama Birim Fiyat gibi finansal metrikler 'DIVIDE' ve 'AVERAGE' ile dinamikleştirildi.
-* **Görselleştirme:** Özel tasarım başlık görseli (Custom Header Image) kullanılarak kurumsal kimliğe uygun bir arayüz oluşturuldu.
+🛠️ Techniques Used:
+
+- **Channel Analysis:** Revenue contribution of each channel calculated using `CALCULATE`.  
+- **Financial KPIs:** Net Profit Margin (%) and Average Unit Price dynamically calculated using `DIVIDE` and `AVERAGE`.  
+- **Visualization:** A custom header image was used to create a corporate-style interface.
 
 ![Sales Dashboard](screenshot.png)
