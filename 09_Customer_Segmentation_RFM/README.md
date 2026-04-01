@@ -1,12 +1,12 @@
-###  Customer Segmentation Analysis (RFM) 🎯
-E-ticaret müşterilerinin alışveriş alışkanlıklarına göre segmentlere ayrıldığı stratejik pazarlama analizi.
+### Customer Segmentation Analysis (RFM) 🎯
+A strategic marketing analysis where e-commerce customers are segmented based on purchasing behavior.
 
-**🎯 İş Problemi:**
-Müşteri tabanını daha iyi tanımak, "Kayıp" veya "Riskli" müşterileri tespit etmek ve sadık müşterilere özel stratejiler geliştirmek için RFM (Recency, Frequency, Monetary) skorlaması yapmak.
+🎯 Business Problem: To better understand the customer base, identify “Lost” or “At Risk” customers, and develop targeted strategies for loyal customers using RFM (Recency, Frequency, Monetary) scoring.
 
-**🛠️ Kullanılan Teknikler:**
-* **Data Engineering (SQL):** Ham veriden RFM metrikleri hesaplandı ve 'NTILE' pencere fonksiyonu (Window Function) ile müşteriler 1-5 arası puanlandı.
-* **Segmentation Logic:** SQL tarafında 'CASE WHEN' yapısı ile puanlar birleştirilerek "Şampiyonlar", "Sadık Müşteriler", "Riskli" gibi dinamik segmentler oluşturuldu.
-* **Görselleştirme:** Segment büyüklüklerini analiz etmek için **Treemap** ve ciro katkılarını görmek için **Bar Chart** kullanıldı.
+🛠️ Techniques Used:
+
+- **Data Engineering (SQL):** RFM metrics calculated from raw data and scored (1–5) using the `NTILE` window function.  
+- **Segmentation Logic:** Dynamic segments such as “Champions”, “Loyal Customers”, and “At Risk” created using `CASE WHEN`.  
+- **Visualization:** Treemap for segment size analysis and bar charts for revenue contribution.
 
 ![RFM Dashboard](screenshot.png)
