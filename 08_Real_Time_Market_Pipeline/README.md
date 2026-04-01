@@ -1,13 +1,13 @@
-###  E-Commerce Price Tracking Pipeline (Canlı Fiyat Takip Sistemi) 🚀
-Python (Web Scraping), SQL ve Power BI entegrasyonu ile oluşturulmuş, rakip fiyat analizi sağlayan otomasyon projesi.
+### E-Commerce Price Tracking Pipeline (Real-Time Price Monitoring System) 🚀
+An automation project providing competitor price analysis using Python (Web Scraping), SQL, and Power BI integration.
 
-**🎯 İş Problemi:**
-E-ticaret sitelerindeki (Kitapyurdu vb.) ürün fiyatlarını anlık olarak takip etmek, fiyat değişimlerini veritabanında loglamak ve rekabet avantajı sağlamak için canlı dashboard oluşturmak.
+🎯 Business Problem: To track product prices on e-commerce websites (e.g., Kitapyurdu) in real-time, log price changes in a database, and create a live dashboard for competitive advantage.
 
-**🛠️ Mimari ve Teknolojiler:**
-* **Python (Scraping & ETL):** 'BeautifulSoup' ve 'Requests' kütüphaneleri ile web sitelerinden veri kazındı. Anti-bot engelleri için 'User-Agent' rotasyonu uygulandı.
-* **Data Simulation:** Veri akışını test etmek ve dashboard tepkisini ölçmek için fiyatlara mikro-simülasyon (Jitter) uygulandı.
-* **SQL Server:** 'NVARCHAR' ve 'DECIMAL' veri tipleri ile optimize edilmiş veritabanı şeması.
-* **Power BI:** DirectQuery ile canlı veri akışı görselleştirildi.
+🛠️ Architecture & Technologies:
+
+- **Python (Scraping & ETL):** Data scraped using `BeautifulSoup` and `Requests`, with User-Agent rotation to bypass anti-bot mechanisms.  
+- **Data Simulation:** Micro-simulation (jitter) applied to test data flow and dashboard responsiveness.  
+- **SQL Server:** Optimized database schema using `NVARCHAR` and `DECIMAL` data types.  
+- **Power BI:** Real-time data visualization using DirectQuery.
 
 ![Price Tracking Dashboard](screenshot.png)
