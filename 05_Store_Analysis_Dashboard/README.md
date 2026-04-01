@@ -1,12 +1,12 @@
-###  Store Analysis Dashboard (Mağaza Analizi)
-Perakende mağazalarının satış performansını, stok seviyelerini ve maliyet yapısını inceleyen operasyonel analiz paneli.
+### Store Analysis Dashboard (Retail Analysis)
+An operational dashboard analyzing retail store sales performance, stock levels, and cost structure.
 
-**🎯 İş Problemi:**
-Mağazaların anlık stok durumunu ve satış adetlerini izleyerek, yüksek maliyetli ürün gruplarını tespit etmek ve stok optimizasyonu sağlamak.
+🎯 Business Problem: To monitor real-time stock levels and sales quantities, identify high-cost product groups, and optimize inventory management.
 
-**🛠️ Kullanılan Teknikler:**
-* **Kanal Analizi:** Direkt, Mağaza, Online ve Toptan satış kanallarının performansları ayrı ayrı metriklere dönüştürüldü.
-* **Görselleştirme:** Stok ve Satış Adedi hedeflerini izlemek için **"Gauge Chart" (Kadran Grafiği)** ve maliyet dağılımı için **"Donut Chart"** kullanıldı.
-* **DAX:** Ortalama Satış Fiyatı hesaplamasında 'AVERAGE' kullanılarak güvenli oran analizi yapıldı.
+🛠️ Techniques Used:
+
+- **Channel Analysis:** Performance of Direct, Store, Online, and Wholesale channels converted into separate metrics.  
+- **Visualization:** Gauge charts used for stock and sales targets; donut charts for cost distribution.  
+- **DAX:** Average Sales Price calculated using `AVERAGE` for reliable ratio analysis.
 
 ![Store Dashboard](screenshot.png)
