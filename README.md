@@ -29,7 +29,7 @@ This approach enables:
 | Store Analysis | Store-level stock, sales, and cost analysis | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/05_Store_Analysis_Dashboard) |
 | Customer Analysis | Customer behavior, loyalty, and shopping analysis | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/06_Customer_Analysis_Dashboard) |
 | Sales Dashboard | Channel-based sales performance and profit margin analysis | Power BI, DAX | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/07_Sales_Analysis_Dashboard) |
-| Price Tracking Pipeline 🚀 | Competitor price tracking and real-time data pipeline via web scraping | Python, SQL, Power BI | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/08_Real_Time_Market_Pipeline) |
+| ECommerce Price Tracking Pipeline 🚀 | Competitor price tracking and real-time data pipeline via web scraping | Python, SQL, Power BI | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/08_ECommerce_Price_Tracking_Pipeline) |
 | Customer Segmentation (RFM) 🎯 | Customer segmentation and targeting using RFM analysis | SQL, Power BI | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/09_Customer_Segmentation_RFM) |
 | Sales Forecasting 🤖 | Sales trend forecasting using machine learning | Python, ML, SQL | [İncele](https://github.com/hakandurmuus/PowerBI-Portfolio-Projects/tree/main/10_Sales_Forecasting_Machine_Learning) |
 
