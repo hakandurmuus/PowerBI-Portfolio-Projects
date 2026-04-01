@@ -1,12 +1,12 @@
-###  HR Analytics Dashboard (İnsan Kaynakları)
-Şirket çalışanlarının performansı, maaş dağılımı ve demografik yapısının analizi.
+### HR Analytics Dashboard (Human Resources)
+An analysis of employee performance, salary distribution, and demographic structure.
 
-**🎯 İş Problemi:**
-Personel verimliliğini, eğitim başarı oranlarını ve departman bazlı maaş dengesizliklerini tespit ederek İK stratejilerine yön vermek.
+🎯 Business Problem: To identify employee productivity, training success rates, and salary imbalances across departments to guide HR strategies.
 
-**🛠️ Kullanılan Teknikler:**
-* **DAX:** 'DISTINCTCOUNT' ile çalışan sayısı hesaplandı.
-* **UI/UX Tasarımı:** Standart Power BI temaları yerine, özel olarak tasarlanmış **"Custom Image Background" (Resim Arka Plan)** tekniği kullanılarak modern ve kurumsal bir arayüz oluşturuldu.
-* **KPI Odaklılık:** Eğitim Verimliliği ve Ortalama Çalışma Saati gibi kritik metrikler ön plana çıkarıldı.
+🛠️ Techniques Used:
+
+- **DAX:** Employee count calculated using `DISTINCTCOUNT`.  
+- **UI/UX Design:** A modern and corporate interface was created using a custom "Image Background" instead of standard Power BI themes.  
+- **KPI Focus:** Key metrics such as Training Efficiency and Average Working Hours were highlighted.
 
 ![HR Dashboard](screenshot.png)
