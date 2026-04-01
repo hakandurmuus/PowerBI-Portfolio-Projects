@@ -1,4 +1,4 @@
-### 1. Analysis Dashboard Application
+### Analysis Dashboard Application
 A strategic management dashboard analyzing overall sales performance, return rates, and regional distribution.
 
 🎯 Business Problem: To monitor overall sales trends and customer behavior on a single screen and identify product/customer groups with high return rates.
